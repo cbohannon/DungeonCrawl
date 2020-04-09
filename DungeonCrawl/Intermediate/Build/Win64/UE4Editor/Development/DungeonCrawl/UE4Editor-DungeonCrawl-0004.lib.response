@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-DungeonCrawl-0004.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Source\Udemy\Unreal\DungeonCrawl\DungeonCrawl\Intermediate\Build\Win64\DungeonCrawlEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Source\Udemy\Unreal\DungeonCrawl\DungeonCrawl\Intermediate\Build\Win64\UE4Editor\Development\DungeonCrawl\DoorActorComponent.cpp.obj"
+"C:\Source\Udemy\Unreal\DungeonCrawl\DungeonCrawl\Intermediate\Build\Win64\UE4Editor\Development\DungeonCrawl\DungeonCrawl.cpp.obj"
+"C:\Source\Udemy\Unreal\DungeonCrawl\DungeonCrawl\Intermediate\Build\Win64\UE4Editor\Development\DungeonCrawl\DoorActorComponent.gen.cpp.obj"
+"C:\Source\Udemy\Unreal\DungeonCrawl\DungeonCrawl\Intermediate\Build\Win64\UE4Editor\Development\DungeonCrawl\DungeonCrawl.init.gen.cpp.obj"
+"C:\Source\Udemy\Unreal\DungeonCrawl\DungeonCrawl\Intermediate\Build\Win64\UE4Editor\Development\DungeonCrawl\Default.rc2.res"
+/OUT:"C:\Source\Udemy\Unreal\DungeonCrawl\DungeonCrawl\Intermediate\Build\Win64\UE4Editor\Development\DungeonCrawl\UE4Editor-DungeonCrawl-0004.lib"
+/INCLUDE:IMPLEMENT_MODULE_DungeonCrawl

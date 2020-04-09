@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\DungeonCrawl.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{ADC78A08-6F89-413C-AC7F-6415D4E103F0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\DungeonCrawl.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\DungeonCrawlEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{6E4F01AA-EB3A-49CE-B3D8-705E3B28644A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\DungeonCrawl">
+      <UniqueIdentifier>{4B3F423A-F07D-4D76-82DD-4D7FC44DB3F9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\DungeonCrawl\DoorActorComponent.cpp">
+      <Filter>Source\DungeonCrawl</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DungeonCrawl\DoorActorComponent.h">
+      <Filter>Source\DungeonCrawl</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\DungeonCrawl\DungeonCrawl.Build.cs">
+      <Filter>Source\DungeonCrawl</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\DungeonCrawl\DungeonCrawl.cpp">
+      <Filter>Source\DungeonCrawl</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DungeonCrawl\DungeonCrawl.h">
+      <Filter>Source\DungeonCrawl</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
