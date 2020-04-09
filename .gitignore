@@ -79,3 +79,4 @@ DerivedDataCache/*
 *.log
 *.dat
 *.bin
+*.uasset
