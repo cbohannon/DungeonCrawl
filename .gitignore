@@ -72,3 +72,10 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+#User added ignore files
+*.pdb
+*.exp
+*.log
+*.dat
+*.bin
