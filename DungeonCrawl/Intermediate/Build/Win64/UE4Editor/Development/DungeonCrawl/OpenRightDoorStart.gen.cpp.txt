@@ -1,0 +1,5 @@
+C:\Source\Udemy\Unreal\DungeonCrawl\DungeonCrawl\Intermediate\Build\Win64\UE4Editor\Development\DungeonCrawl\Definitions.DungeonCrawl.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Source\Udemy\Unreal\DungeonCrawl\DungeonCrawl\Source\DungeonCrawl/OpenRightDoorStart.h
+C:\Source\Udemy\Unreal\DungeonCrawl\DungeonCrawl\Intermediate\Build\Win64\UE4Editor\Inc\DungeonCrawl\OpenRightDoorStart.generated.h

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\DungeonCrawl.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{4F0A19B2-3A0C-4AF2-A655-64F92B1595DB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\DungeonCrawl.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\DungeonCrawlEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{EA41FF2E-36BB-471C-A1FD-0207F86F79EF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\DungeonCrawl">
+      <UniqueIdentifier>{2CFD8375-3256-4A84-B77A-A2C3F3D8AD3C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\DungeonCrawl\DungeonCrawl.Build.cs">
+      <Filter>Source\DungeonCrawl</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\DungeonCrawl\DungeonCrawl.cpp">
+      <Filter>Source\DungeonCrawl</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DungeonCrawl\DungeonCrawl.h">
+      <Filter>Source\DungeonCrawl</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DungeonCrawl\DungeonCrawlGameModeBase.cpp">
+      <Filter>Source\DungeonCrawl</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DungeonCrawl\DungeonCrawlGameModeBase.h">
+      <Filter>Source\DungeonCrawl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\DungeonCrawl\WorldPosition.h">
+      <Filter>Source\DungeonCrawl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DungeonCrawl\OpenLeftDoorStart.h">
+      <Filter>Source\DungeonCrawl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\DungeonCrawl\OpenRightDoorStart.h">
+      <Filter>Source\DungeonCrawl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\DungeonCrawl\WorldPosition.cpp">
+      <Filter>Source\DungeonCrawl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DungeonCrawl\OpenLeftDoorStart.cpp">
+      <Filter>Source\DungeonCrawl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DungeonCrawl\OpenRightDoorStart.cpp">
+      <Filter>Source\DungeonCrawl</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
