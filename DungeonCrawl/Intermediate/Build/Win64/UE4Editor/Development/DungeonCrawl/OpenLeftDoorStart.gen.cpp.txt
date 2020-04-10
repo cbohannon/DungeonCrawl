@@ -2,4 +2,6 @@ C:\Source\Udemy\Unreal\DungeonCrawl\DungeonCrawl\Intermediate\Build\Win64\UE4Edi
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 C:\Source\Udemy\Unreal\DungeonCrawl\DungeonCrawl\Source\DungeonCrawl/OpenLeftDoorStart.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/TriggerVolume.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TriggerVolume.generated.h
 C:\Source\Udemy\Unreal\DungeonCrawl\DungeonCrawl\Intermediate\Build\Win64\UE4Editor\Inc\DungeonCrawl\OpenLeftDoorStart.generated.h

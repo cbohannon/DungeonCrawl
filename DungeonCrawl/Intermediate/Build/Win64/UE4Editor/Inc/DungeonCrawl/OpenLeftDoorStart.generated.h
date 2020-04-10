@@ -58,7 +58,12 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOpenLeftDoorStart); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UOpenLeftDoorStart)
 
 
-#define DungeonCrawl_Source_DungeonCrawl_OpenLeftDoorStart_h_13_PRIVATE_PROPERTY_OFFSET
+#define DungeonCrawl_Source_DungeonCrawl_OpenLeftDoorStart_h_13_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__TargetYaw() { return STRUCT_OFFSET(UOpenLeftDoorStart, TargetYaw); } \
+	FORCEINLINE static uint32 __PPO__PressurePlate() { return STRUCT_OFFSET(UOpenLeftDoorStart, PressurePlate); } \
+	FORCEINLINE static uint32 __PPO__TheActorThatOpens() { return STRUCT_OFFSET(UOpenLeftDoorStart, TheActorThatOpens); }
+
+
 #define DungeonCrawl_Source_DungeonCrawl_OpenLeftDoorStart_h_10_PROLOG
 #define DungeonCrawl_Source_DungeonCrawl_OpenLeftDoorStart_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
