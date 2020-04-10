@@ -6,7 +6,6 @@
 #include "Components/ActorComponent.h"
 #include "OpenLeftDoorStart.generated.h"
 
-
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class DUNGEONCRAWL_API UOpenLeftDoorStart : public UActorComponent
 {
@@ -24,5 +23,6 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-		
+private:
+	float TargetYaw{ 90.f };	
 };

@@ -13,22 +13,23 @@ UOpenRightDoorStart::UOpenRightDoorStart()
 	// ...
 }
 
-
 // Called when the game starts
 void UOpenRightDoorStart::BeginPlay()
 {
 	Super::BeginPlay();
-
-	FRotator OpenDoor { 0.f, -90.f, 0.f };
-	GetOwner()->SetActorRotation(OpenDoor);
 }
-
 
 // Called every frame
 void UOpenRightDoorStart::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// ...
+	UE_LOG(LogTemp, Warning, TEXT("%s"), *GetOwner()->GetActorRotation().ToString());
+	UE_LOG(LogTemp, Warning, TEXT("Right yaw is: %f"), GetOwner()->GetActorRotation().Yaw);
+
+	float CurrentYaw = GetOwner()->GetActorRotation().Yaw;
+	FRotator OpenDoor{ 0.f, TargetYaw, 0.f };
+	OpenDoor.Yaw = FMath::FInterpTo(CurrentYaw, TargetYaw, DeltaTime, 2.0f);
+	GetOwner()->SetActorRotation(OpenDoor);
 }
 
