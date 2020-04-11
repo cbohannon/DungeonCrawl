@@ -1,3 +1,11 @@
 C:\Source\Udemy\Unreal\DungeonCrawl\DungeonCrawl\Intermediate\Build\Win64\UE4Editor\Development\DungeonCrawl\Definitions.DungeonCrawl.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
 C:\Source\Udemy\Unreal\DungeonCrawl\DungeonCrawl\Source\DungeonCrawl\Grabber.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/PhysicsHandleComponent.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PhysicsHandleComponent.generated.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314\INCLUDE\tuple
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314\INCLUDE\xutility
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314\INCLUDE\climits
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314\INCLUDE\cstring
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314\INCLUDE\utility
 C:\Source\Udemy\Unreal\DungeonCrawl\DungeonCrawl\Intermediate\Build\Win64\UE4Editor\Inc\DungeonCrawl\Grabber.generated.h

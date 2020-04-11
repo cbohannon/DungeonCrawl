@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeDungeonCrawl_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x469DA9BA,
+				0x1F233D3D,
 				0x3D999496,
 				METADATA_PARAMS(nullptr, 0)
 			};
