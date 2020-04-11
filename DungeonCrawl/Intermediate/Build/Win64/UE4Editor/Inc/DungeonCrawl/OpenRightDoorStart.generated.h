@@ -59,7 +59,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOpenRightDoorStart); \
 
 
 #define DungeonCrawl_Source_DungeonCrawl_OpenRightDoorStart_h_13_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__TargetYaw() { return STRUCT_OFFSET(UOpenRightDoorStart, TargetYaw); } \
+	FORCEINLINE static uint32 __PPO__OpenAngle() { return STRUCT_OFFSET(UOpenRightDoorStart, OpenAngle); } \
+	FORCEINLINE static uint32 __PPO__DoorCloseDelay() { return STRUCT_OFFSET(UOpenRightDoorStart, DoorCloseDelay); } \
+	FORCEINLINE static uint32 __PPO__DoorOpenSpeed() { return STRUCT_OFFSET(UOpenRightDoorStart, DoorOpenSpeed); } \
+	FORCEINLINE static uint32 __PPO__DoorCloseSpeed() { return STRUCT_OFFSET(UOpenRightDoorStart, DoorCloseSpeed); } \
 	FORCEINLINE static uint32 __PPO__PressurePlate() { return STRUCT_OFFSET(UOpenRightDoorStart, PressurePlate); } \
 	FORCEINLINE static uint32 __PPO__TheActorThatOpens() { return STRUCT_OFFSET(UOpenRightDoorStart, TheActorThatOpens); }
 

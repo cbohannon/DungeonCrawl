@@ -52,6 +52,9 @@
     <ClInclude Include="..\..\Source\DungeonCrawl\OpenRightDoorStart.h">
       <Filter>Source\DungeonCrawl</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\DungeonCrawl\Grabber.h">
+      <Filter>Source\DungeonCrawl</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\DungeonCrawl\WorldPosition.cpp">
@@ -61,6 +64,9 @@
       <Filter>Source\DungeonCrawl</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\DungeonCrawl\OpenRightDoorStart.cpp">
+      <Filter>Source\DungeonCrawl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\DungeonCrawl\Grabber.cpp">
       <Filter>Source\DungeonCrawl</Filter>
     </ClCompile>
   </ItemGroup>

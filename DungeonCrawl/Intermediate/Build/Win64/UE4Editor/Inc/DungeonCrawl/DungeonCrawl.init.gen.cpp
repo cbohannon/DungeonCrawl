@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeDungeonCrawl_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xE0D21BD7,
-				0xF0B0F2D7,
+				0x469DA9BA,
+				0x3D999496,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

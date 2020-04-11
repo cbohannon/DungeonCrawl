@@ -265,9 +265,11 @@
     <NMakeOutput>..\..\Binaries\Win64\DungeonCrawl-Win64-Shipping.exe</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\DungeonCrawl\Grabber.cpp" />
     <ClCompile Include="..\..\Source\DungeonCrawl\OpenLeftDoorStart.cpp" />
     <ClCompile Include="..\..\Source\DungeonCrawl\OpenRightDoorStart.cpp" />
     <ClCompile Include="..\..\Source\DungeonCrawl\WorldPosition.cpp" />
+    <ClInclude Include="..\..\Source\DungeonCrawl\Grabber.h" />
     <ClInclude Include="..\..\Source\DungeonCrawl\OpenLeftDoorStart.h" />
     <ClInclude Include="..\..\Source\DungeonCrawl\OpenRightDoorStart.h" />
     <ClInclude Include="..\..\Source\DungeonCrawl\WorldPosition.h" />
