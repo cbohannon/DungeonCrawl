@@ -1,9 +1,12 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "OpenRightDoorStart.h"
+#include "Components/PrimitiveComponent.h"
 #include "Engine/World.h"
 #include "GameFramework/PlayerController.h"
 #include "GameFramework/Actor.h"
+
+#define OUT
 
 // Sets default values for this component's properties
 UOpenRightDoorStart::UOpenRightDoorStart()
@@ -24,12 +27,15 @@ void UOpenRightDoorStart::BeginPlay()
 	CurrentYaw = InitialYaw;
 	OpenAngle += InitialYaw;
 
+	FindPressurePlate();
+}
+
+void UOpenRightDoorStart::FindPressurePlate()
+{
 	if (!PressurePlate)
 	{
-		UE_LOG(LogTemp, Error, TEXT("%s has the open door component, but no PressurePlate set."), *GetOwner()->GetName());
+		UE_LOG(LogTemp, Error, TEXT("%s has the open door component on it, but no pressureplate set."), *GetOwner()->GetName());
 	}
-
-	TheActorThatOpens = GetWorld()->GetFirstPlayerController()->GetPawn();
 }
 
 // Called every frame
@@ -37,7 +43,7 @@ void UOpenRightDoorStart::TickComponent(float DeltaTime, ELevelTick TickType, FA
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	if (PressurePlate && PressurePlate->IsOverlappingActor(TheActorThatOpens))
+	if (TotalMassOfActors() > MassToOpenDoor)
 	{
 		OpenDoor(DeltaTime);
 		DoorLastOpened = GetWorld()->GetTimeSeconds();
@@ -67,4 +73,21 @@ void UOpenRightDoorStart::CloseDoor(float DeltaTime)
 	DoorRotation.Yaw = CurrentYaw;
 
 	GetOwner()->SetActorRotation(DoorRotation);
+}
+
+float UOpenRightDoorStart::TotalMassOfActors() const
+{
+	float TotalMass{ 0.f };
+
+	TArray<AActor*> OverLappingActors{ nullptr };
+
+	if (!PressurePlate) { return TotalMass; }
+	PressurePlate->GetOverlappingActors(OUT OverLappingActors);
+
+	for (AActor* Actor : OverLappingActors)
+	{
+		TotalMass += Actor->FindComponentByClass<UPrimitiveComponent>()->GetMass();
+	}
+
+	return TotalMass;
 }

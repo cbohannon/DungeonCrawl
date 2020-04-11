@@ -57,6 +57,10 @@ void EmptyLinkFunctionForGeneratedCodeOpenRightDoorStart() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OpenAngle_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_OpenAngle;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MassToOpenDoor_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MassToOpenDoor;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -115,6 +119,13 @@ void EmptyLinkFunctionForGeneratedCodeOpenRightDoorStart() {}
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UOpenRightDoorStart_Statics::NewProp_OpenAngle = { "OpenAngle", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UOpenRightDoorStart, OpenAngle), METADATA_PARAMS(Z_Construct_UClass_UOpenRightDoorStart_Statics::NewProp_OpenAngle_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UOpenRightDoorStart_Statics::NewProp_OpenAngle_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UOpenRightDoorStart_Statics::NewProp_MassToOpenDoor_MetaData[] = {
+		{ "Category", "OpenRightDoorStart" },
+		{ "ModuleRelativePath", "OpenRightDoorStart.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UOpenRightDoorStart_Statics::NewProp_MassToOpenDoor = { "MassToOpenDoor", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UOpenRightDoorStart, MassToOpenDoor), METADATA_PARAMS(Z_Construct_UClass_UOpenRightDoorStart_Statics::NewProp_MassToOpenDoor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UOpenRightDoorStart_Statics::NewProp_MassToOpenDoor_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UOpenRightDoorStart_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UOpenRightDoorStart_Statics::NewProp_TheActorThatOpens,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UOpenRightDoorStart_Statics::NewProp_PressurePlate,
@@ -122,6 +133,7 @@ void EmptyLinkFunctionForGeneratedCodeOpenRightDoorStart() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UOpenRightDoorStart_Statics::NewProp_DoorOpenSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UOpenRightDoorStart_Statics::NewProp_DoorCloseDelay,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UOpenRightDoorStart_Statics::NewProp_OpenAngle,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UOpenRightDoorStart_Statics::NewProp_MassToOpenDoor,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UOpenRightDoorStart_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UOpenRightDoorStart>::IsAbstract,
@@ -150,7 +162,7 @@ void EmptyLinkFunctionForGeneratedCodeOpenRightDoorStart() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UOpenRightDoorStart, 3104356404);
+	IMPLEMENT_CLASS(UOpenRightDoorStart, 2112102402);
 	template<> DUNGEONCRAWL_API UClass* StaticClass<UOpenRightDoorStart>()
 	{
 		return UOpenRightDoorStart::StaticClass();

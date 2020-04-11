@@ -3,7 +3,7 @@
 /MACHINE:x64
 /SUBSYSTEM:WINDOWS
 /DEF
-/NAME:"UE4Editor-DungeonCrawl-0743.dll"
+/NAME:"UE4Editor-DungeonCrawl-5454.dll"
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Source\Udemy\Unreal\DungeonCrawl\DungeonCrawl\Intermediate\Build\Win64\DungeonCrawlEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
@@ -20,5 +20,5 @@
 "C:\Source\Udemy\Unreal\DungeonCrawl\DungeonCrawl\Intermediate\Build\Win64\UE4Editor\Development\DungeonCrawl\OpenRightDoorStart.gen.cpp.obj"
 "C:\Source\Udemy\Unreal\DungeonCrawl\DungeonCrawl\Intermediate\Build\Win64\UE4Editor\Development\DungeonCrawl\WorldPosition.gen.cpp.obj"
 "C:\Source\Udemy\Unreal\DungeonCrawl\DungeonCrawl\Intermediate\Build\Win64\UE4Editor\Development\DungeonCrawl\Default.rc2.res"
-/OUT:"C:\Source\Udemy\Unreal\DungeonCrawl\DungeonCrawl\Intermediate\Build\Win64\UE4Editor\Development\DungeonCrawl\UE4Editor-DungeonCrawl-0743.lib"
+/OUT:"C:\Source\Udemy\Unreal\DungeonCrawl\DungeonCrawl\Intermediate\Build\Win64\UE4Editor\Development\DungeonCrawl\UE4Editor-DungeonCrawl-5454.lib"
 /INCLUDE:IMPLEMENT_MODULE_DungeonCrawl
